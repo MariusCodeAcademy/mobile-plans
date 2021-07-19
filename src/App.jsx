@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
+import Comitment from './components/comitment';
+import HaveServices from './components/haveServices';
+import MobilePlan from './components/mobilePlan';
 
 class App extends Component {
   constructor(props) {
@@ -12,6 +15,13 @@ class App extends Component {
       <div className="App">
         <h1>Mobiliojo ryšio planai</h1>
         <p>Visos Lietuvoje turimo plano naudos galioja Baltijos ir Skandinavijos šalyse.</p>
+        <div className="controls">
+          <Comitment />
+          <HaveServices />
+        </div>
+        <main className="plan-cards">
+          <MobilePlan />
+        </main>
       </div>
     );
   }

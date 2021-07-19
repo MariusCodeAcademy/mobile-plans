@@ -3,7 +3,6 @@ create-react-app mobile-plans
 2. prisijungti gitHub
 3. apsivalyti aplikacija, palikti tik app.js ir tuscius css failus 
 4. App.js(x) bus pagrindinis musu puslapis
-
 5. susikurti Komponentus(tuscius su antraste): commitment, haveServices, mobile-plan
 
 6. isitraukti komponentus i app ir isitikinti kad pavyko 
