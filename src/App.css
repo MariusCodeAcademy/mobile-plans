@@ -24,6 +24,7 @@
   max-width: 280px;
   padding: 1rem;
   border-radius: 15px;
+  overflow: hidden;
 }
 
 .plan__header {
@@ -42,6 +43,26 @@
 
 .plan__min-sms {
   font-size: 1rem;
+}
+.plan__features .hr {
+  height: 1px;
+  background-color: #f2f2f2;
+  background-color: black;
+  margin: 0.5rem -1rem;
+}
+
+.features__list {
+  list-style: none;
+  padding-left: 0;
+}
+.features__list li {
+  line-height: 1.5rem;
+}
+
+.features__check {
+  width: 1rem;
+  margin-right: 0.6rem;
+  vertical-align: middle;
 }
 
 .plan__bottom {
