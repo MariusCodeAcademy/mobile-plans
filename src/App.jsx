@@ -16,7 +16,7 @@ class App extends Component {
         <div className="container">
           <h1>Mobiliojo ryšio planai</h1>
           <p>Visos Lietuvoje turimo plano naudos galioja Baltijos ir Skandinavijos šalyse.</p>
-          <div className="controls">
+          <div className="controls d-flex">
             <Comitment />
             <HaveServices />
           </div>
