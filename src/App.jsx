@@ -7,7 +7,9 @@ import MobilePlan from './components/mobilePlan';
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      noCommitment: false,
+    };
   }
 
   render() {
@@ -17,7 +19,7 @@ class App extends Component {
           <h1>Mobiliojo ryšio planai</h1>
           <p>Visos Lietuvoje turimo plano naudos galioja Baltijos ir Skandinavijos šalyse.</p>
           <div className="controls d-flex">
-            <Comitment />
+            <Comitment noCommitment={this.state.noCommitment} />
             <HaveServices />
           </div>
           <main className="plan-cards">
