@@ -11,8 +11,10 @@ class MobilePlan extends Component {
         <div className="plan__features">Sarasas</div>
         <div className="plan__bottom">
           <div className="bottom__price-part">
-            <h3>9,00 eur/men</h3>
-            <small>24 mėn. sutartis</small>
+            <h3 className="bottom__price">
+              9,00 <span>&euro;/men</span>
+            </h3>
+            <small className="bottom__term">24 mėn. sutartis</small>
           </div>
           <button className="plan__cta">Domina</button>
         </div>
