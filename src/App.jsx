@@ -9,8 +9,16 @@ class App extends Component {
     super(props);
     this.state = {
       beIsipareiojimu: true,
+      mobile1: {},
     };
   }
+
+  // component did mount hook parsisiusnciam plan1.json faila ir issaugom state
+
+  // perduodam mobile1 i MobilePlan
+
+  // MobilePlan pasiimam duomenis ir uzpildom kortele
+
   handleRadio = (val) => {
     console.log('radio was pressed');
     console.log(val);
