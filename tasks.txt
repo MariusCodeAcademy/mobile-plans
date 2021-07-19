@@ -8,3 +8,5 @@ create-react-app mobile-plans
 6. isitraukti komponentus i app ir isitikinti kad pavyko 
 
 7. mobile-plan korteles komponenta padaryti kad butu panasus i pavyzdyje
+
+8. isitraukti Roboto kaip srifta i savo projekta (normal, bold)
