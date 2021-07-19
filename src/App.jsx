@@ -15,7 +15,11 @@ class App extends Component {
     console.log('radio was pressed');
     console.log(val);
     // jei gaunu commit tai nustatau busena  i atitinkama
-
+    if (val === 'commit') {
+      this.setState({ beIsipareiojimu: false });
+    } else {
+      this.setState({ beIsipareiojimu: true });
+    }
     // arba priesingai
   };
 

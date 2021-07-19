@@ -110,3 +110,14 @@
   background-color: rgba(34, 34, 34, 0.04);
   flex-basis: 50%;
 }
+
+.radio-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+.radio-container svg {
+  margin-right: 0.4rem;
+}
