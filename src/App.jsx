@@ -3,6 +3,7 @@ import './App.css';
 import Comitment from './components/comitment';
 import HaveServices from './components/haveServices';
 import MobilePlan from './components/mobilePlan';
+import axios from 'axios';
 
 class App extends Component {
   constructor(props) {
@@ -30,6 +31,17 @@ class App extends Component {
     }
     // arba priesingai
   };
+
+  async componentDidMount() {
+    const res = await fetch('/data/plan1.json');
+    const data = await res.json();
+    console.log(data);
+
+    const {
+      data: { features },
+    } = await axios.get('data/plan1.json');
+    console.log(features);
+  }
 
   render() {
     return (
