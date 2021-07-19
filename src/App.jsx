@@ -8,9 +8,16 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      noCommitment: false,
+      beIsipareiojimu: true,
     };
   }
+  handleRadio = (val) => {
+    console.log('radio was pressed');
+    console.log(val);
+    // jei gaunu commit tai nustatau busena  i atitinkama
+
+    // arba priesingai
+  };
 
   render() {
     return (
@@ -19,7 +26,7 @@ class App extends Component {
           <h1>Mobiliojo ryšio planai</h1>
           <p>Visos Lietuvoje turimo plano naudos galioja Baltijos ir Skandinavijos šalyse.</p>
           <div className="controls d-flex">
-            <Comitment noCommitment={this.state.noCommitment} />
+            <Comitment handleRadio={this.handleRadio} noCommitment={this.state.beIsipareiojimu} />
             <HaveServices />
           </div>
           <main className="plan-cards">
