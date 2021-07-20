@@ -13,7 +13,7 @@
     ],
     "price": {
         "commitment": 9,
-        "noComitment": 9.9
+        "noCommitment": 9.9
     },
     "period": "men",
     "contractLength": {
