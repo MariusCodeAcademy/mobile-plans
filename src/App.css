@@ -6,7 +6,7 @@
 }
 /* Common */
 .container {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
 }
 .d-flex {
@@ -34,10 +34,12 @@
 .mobile-plan {
   background-color: #fff;
   /* temporary */
-  max-width: 280px;
+  width: 280px;
   padding: 1rem;
   border-radius: 15px;
   overflow: hidden;
+  position: relative;
+  padding-bottom: 80px;
 }
 
 .plan__header {
@@ -81,6 +83,8 @@
 .plan__bottom {
   display: flex;
   align-items: center;
+  position: absolute;
+  bottom: 1rem;
 }
 
 .bottom__price-part {

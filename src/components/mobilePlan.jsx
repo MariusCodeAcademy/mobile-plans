@@ -43,7 +43,11 @@ class MobilePlan extends Component {
                 : this.formatPrice(p.price?.noCommitment)}
               <span>&euro;/{p.period}</span>
             </h3>
-            <small className="bottom__term">{p.contractLength?.commitment}</small>
+            <small className="bottom__term">
+              {!this.props.beIsipareigojimu
+                ? p.contractLength?.commitment
+                : p.contractLength?.noCommitment}
+            </small>
           </div>
           <button className="plan__cta">{p.ctaButton}</button>
         </div>
