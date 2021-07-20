@@ -5,7 +5,7 @@ class MobilePlan extends Component {
   // pasirasyti pagalbini metodas
 
   formatPrice(num) {
-    console.log(`skaicius ${num}`);
+    // console.log(`skaicius ${num}`);
     return num?.toFixed(2);
   }
   // this.formatPrice(5); // console.log() 'skaicius 5'

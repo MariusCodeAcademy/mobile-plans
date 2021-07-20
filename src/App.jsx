@@ -11,7 +11,7 @@ class App extends Component {
     this.state = {
       beIsipareigojimu: true,
       mobile1: {},
-      allPlans: [1, 'blue', true, 45],
+      allPlans: [],
     };
   }
 
@@ -45,7 +45,7 @@ class App extends Component {
             <HaveServices />
           </div>
           <main className="plan-cards">
-            {this.state.allPlans.map((planObj) => (
+            {this.state.allPlans.map((planObj, i) => (
               <MobilePlan
                 key={planObj.headerTitle}
                 beIsipareigojimu={this.state.beIsipareigojimu}
