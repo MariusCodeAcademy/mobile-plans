@@ -37,10 +37,8 @@ class App extends Component {
     const data = await res.json();
     console.log(data);
 
-    const {
-      data: { features },
-    } = await axios.get('data/plan1.json');
-    console.log(features);
+    const { data: dataAxios } = await axios.get('data/plan1.json');
+    console.log(dataAxios);
   }
 
   render() {
