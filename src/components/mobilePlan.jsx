@@ -38,7 +38,7 @@ class MobilePlan extends Component {
             <h3 className="bottom__price">
               {/* {p.price && p.price.commitment} <span>&euro;/men</span> */}
               {/* p.price? - pasitikrina ar turi reiksme iki ? .commitment */}
-              {this.props.beIsipareigojimu
+              {!this.props.beIsipareigojimu
                 ? this.formatPrice(p.price?.commitment)
                 : this.formatPrice(p.price?.noCommitment)}
               <span>&euro;/{p.period}</span>

@@ -15,7 +15,7 @@
     ],
     "price": {
       "commitment": 9,
-      "noComitment": 9.9
+      "noCommitment": 9.9
     },
     "period": "men",
     "contractLength": {
@@ -43,7 +43,7 @@
     ],
     "price": {
       "commitment": 12,
-      "noComitment": 13.9
+      "noCommitment": 13.9
     },
     "period": "men",
     "contractLength": {
@@ -74,7 +74,7 @@
     ],
     "price": {
       "commitment": 16,
-      "noComitment": 17.9
+      "noCommitment": 17.9
     },
     "period": "men",
     "contractLength": {
@@ -105,7 +105,7 @@
     ],
     "price": {
       "commitment": 19,
-      "noComitment": 21.9
+      "noCommitment": 21.9
     },
     "period": "men",
     "contractLength": {
@@ -137,7 +137,7 @@
     ],
     "price": {
       "commitment": 23,
-      "noComitment": 25.9
+      "noCommitment": 25.9
     },
     "period": "men",
     "contractLength": {
@@ -169,7 +169,7 @@
     ],
     "price": {
       "commitment": 19,
-      "noComitment": 21.9
+      "noCommitment": 21.9
     },
     "period": "men",
     "contractLength": {
@@ -201,7 +201,7 @@
     ],
     "price": {
       "commitment": 29,
-      "noComitment": 33.9
+      "noCommitment": 33.9
     },
     "period": "men",
     "contractLength": {
