@@ -17,8 +17,8 @@
     },
     "period": "men",
     "contractLength": {
-        "commitment": "Be įsipareigojimų",
-        "noCommitment": "24 mėn. sutartis"
+        "noCommitment": "Be įsipareigojimų",
+        "commitment": "24 mėn. sutartis"
     },
     "ctaButton": "Domina"
 }
