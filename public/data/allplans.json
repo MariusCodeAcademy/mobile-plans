@@ -1,0 +1,213 @@
+[
+  {
+    "headerTitle": "Mobilus START 1",
+    "dataAlowed": 1,
+    "dataServices": 2,
+    "dataEU": 1,
+    "minSms": "Neribotos MIN ir SMS",
+    "features": [
+      {
+        "title": "M. parašas (6 men)"
+      },
+      {
+        "title": "Įrangos draudimas (3 men)"
+      }
+    ],
+    "price": {
+      "commitment": 9,
+      "noComitment": 9.9
+    },
+    "period": "men",
+    "contractLength": {
+      "commitment": "24 mėn. sutartis",
+      "noCommitment": "Be įsipareigojimų"
+    },
+    "ctaButton": "Gauti pasiūlymą"
+  },
+  {
+    "headerTitle": "Mobilus FLEXI 4",
+    "dataAlowed": 4,
+    "dataServices": 8,
+    "dataEU": 4,
+    "minSms": "Neribotos MIN ir SMS",
+    "features": [
+      {
+        "title": "M. parašas (6 men)"
+      },
+      {
+        "title": "Įrangos draudimas (3 men)"
+      },
+      {
+        "title": "GB perkėlimas į kitą mėn."
+      }
+    ],
+    "price": {
+      "commitment": 12,
+      "noComitment": 13.9
+    },
+    "period": "men",
+    "contractLength": {
+      "commitment": "24 mėn. sutartis",
+      "noCommitment": "Be įsipareigojimų"
+    },
+    "ctaButton": "Gauti pasiūlymą"
+  },
+  {
+    "headerTitle": "Mobilus FLEXI 8",
+    "dataAlowed": 8,
+    "dataServices": 16,
+    "dataEU": 8,
+    "minSms": "Neribotos MIN ir SMS",
+    "features": [
+      {
+        "title": "M. parašas (6 men)"
+      },
+      {
+        "title": "Įrangos draudimas (3 men)"
+      },
+      {
+        "title": "Kelionių draudimas (3 mėn.)"
+      },
+      {
+        "title": "GB perkėlimas į kitą mėn."
+      }
+    ],
+    "price": {
+      "commitment": 16,
+      "noComitment": 17.9
+    },
+    "period": "men",
+    "contractLength": {
+      "commitment": "24 mėn. sutartis",
+      "noCommitment": "Be įsipareigojimų"
+    },
+    "ctaButton": "Gauti pasiūlymą"
+  },
+  {
+    "headerTitle": "Mobilus FLEXI 12",
+    "dataAlowed": 12,
+    "dataServices": 24,
+    "dataEU": 12,
+    "minSms": "Neribotos MIN ir SMS",
+    "features": [
+      {
+        "title": "M. parašas (6 men)"
+      },
+      {
+        "title": "Įrangos draudimas (3 men)"
+      },
+      {
+        "title": "Kelionių draudimas (3 mėn.)"
+      },
+      {
+        "title": "GB perkėlimas į kitą mėn."
+      }
+    ],
+    "price": {
+      "commitment": 19,
+      "noComitment": 21.9
+    },
+    "period": "men",
+    "contractLength": {
+      "commitment": "24 mėn. sutartis",
+      "noCommitment": "Be įsipareigojimų"
+    },
+    "ctaButton": "Gauti pasiūlymą"
+  },
+  {
+    "headerTitle": "Mobilus FLEXI 20",
+    "dataAlowed": 20,
+    "dataServices": 40,
+    "dataEU": 15,
+    "worldwide": 500,
+    "minSms": "Neribotos MIN ir SMS",
+    "features": [
+      {
+        "title": "M. parašas (6 men)"
+      },
+      {
+        "title": "Įrangos draudimas (3 men)"
+      },
+      {
+        "title": "Kelionių draudimas (3 mėn.)"
+      },
+      {
+        "title": "GB perkėlimas į kitą mėn."
+      }
+    ],
+    "price": {
+      "commitment": 23,
+      "noComitment": 25.9
+    },
+    "period": "men",
+    "contractLength": {
+      "commitment": "24 mėn. sutartis",
+      "noCommitment": "Be įsipareigojimų"
+    },
+    "ctaButton": "Gauti pasiūlymą"
+  },
+  {
+    "headerTitle": "Mobilus FLEXI 40",
+    "dataAlowed": 40,
+    "dataServices": 80,
+    "dataEU": 16,
+    "worldwide": 500,
+    "minSms": "Neribotos MIN ir SMS",
+    "features": [
+      {
+        "title": "M. parašas (6 men)"
+      },
+      {
+        "title": "Įrangos draudimas (3 men)"
+      },
+      {
+        "title": "Kelionių draudimas (3 mėn.)"
+      },
+      {
+        "title": "GB perkėlimas į kitą mėn."
+      }
+    ],
+    "price": {
+      "commitment": 19,
+      "noComitment": 21.9
+    },
+    "period": "men",
+    "contractLength": {
+      "commitment": "24 mėn. sutartis",
+      "noCommitment": "Be įsipareigojimų"
+    },
+    "ctaButton": "Gauti pasiūlymą"
+  },
+  {
+    "headerTitle": "Mobilus NERIBOTAI",
+    "dataAlowed": "Neriboti",
+    "dataServices": "Neriboti",
+    "dataEU": 19,
+    "worldwide": 500,
+    "minSms": "Neribotos MIN ir SMS",
+    "features": [
+      {
+        "title": "M. parašas (6 men)"
+      },
+      {
+        "title": "Įrangos draudimas (3 men)"
+      },
+      {
+        "title": "Kelionių draudimas (3 mėn.)"
+      },
+      {
+        "title": "Pritaikytas 5G testavimui"
+      }
+    ],
+    "price": {
+      "commitment": 29,
+      "noComitment": 33.9
+    },
+    "period": "men",
+    "contractLength": {
+      "commitment": "24 mėn. sutartis",
+      "noCommitment": "Be įsipareigojimų"
+    },
+    "ctaButton": "Gauti pasiūlymą"
+  }
+]

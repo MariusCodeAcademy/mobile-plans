@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import ListImage from '../static/checked.png';
 
 class MobilePlan extends Component {
+  // pasirasyti pagalbini metodas formatPrice(num)
+  // jis priima kaina kaip skaiciu
+  // grazina su dviem skaiciais po kablelio
   render() {
     const { plan: p } = this.props;
     return (
