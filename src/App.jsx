@@ -11,6 +11,7 @@ class App extends Component {
     this.state = {
       beIsipareigojimu: true,
       mobile1: {},
+      allPlans: [],
     };
   }
 

@@ -2,10 +2,17 @@ import React, { Component } from 'react';
 import ListImage from '../static/checked.png';
 
 class MobilePlan extends Component {
-  // pasirasyti pagalbini metodas formatPrice(num)
+  // pasirasyti pagalbini metodas
+
+  formatPrice(num) {
+    console.log(`skaicius ${num}`);
+    return num?.toFixed(2);
+  }
+  // this.formatPrice(5); // console.log() 'skaicius 5'
   // jis priima kaina kaip skaiciu
   // grazina su dviem skaiciais po kablelio
   render() {
+    this.formatPrice(5); // console.log() 'skaicius 5'
     const { plan: p } = this.props;
     return (
       <div className="mobile-plan">
@@ -31,7 +38,9 @@ class MobilePlan extends Component {
             <h3 className="bottom__price">
               {/* {p.price && p.price.commitment} <span>&euro;/men</span> */}
               {/* p.price? - pasitikrina ar turi reiksme iki ? .commitment */}
-              {!this.props.beIsipareigojimu ? p.price?.commitment : p.price?.noCommitment}
+              {this.props.beIsipareigojimu
+                ? this.formatPrice(p.price?.commitment)
+                : this.formatPrice(p.price?.noCommitment)}
               <span>&euro;/{p.period}</span>
             </h3>
             <small className="bottom__term">{p.contractLength?.commitment}</small>
